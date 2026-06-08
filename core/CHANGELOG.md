@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.3.0](https://github.com/google/adk-js/compare/adk-v1.2.0...adk-v1.3.0) (2026-06-08)
+
+
+### Features
+
+* **openapi:** implement spec operation parser and auth handler (part 2) ([#385](https://github.com/google/adk-js/issues/385)) ([8adf05e](https://github.com/google/adk-js/commit/8adf05eedc31d6a9d32b9f5c8512258794cac551))
+
+
+### Bug Fixes
+
+* Filter temporary state keys on session creation in TS ADK ([#406](https://github.com/google/adk-js/issues/406)) ([04968b7](https://github.com/google/adk-js/commit/04968b734e44600a847239f103864e4c404d97c3))
+* replace any with proper AuthConfig type in EventActions ([#405](https://github.com/google/adk-js/issues/405)) ([4172398](https://github.com/google/adk-js/commit/417239854cbae63650f63e0e3ad02fa34f433401))
+* **streaming:** prevent prototype pollution via model-controlled JSON path ([#410](https://github.com/google/adk-js/issues/410)) ([9008353](https://github.com/google/adk-js/commit/9008353e6d81e086dc778df67189ee193b440ab7))
+
 ## [1.2.0](https://github.com/google/adk-js/compare/adk-v1.1.0...adk-v1.2.0) (2026-06-02)
 
 
